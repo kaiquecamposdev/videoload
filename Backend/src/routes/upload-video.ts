@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { fastifyMultipart } from "@fastify/multipart"
+import fastifyMultipart, { fastifyMultipart } from "@fastify/multipart"
 import fs from 'node:fs'
 import path from 'node:path'
 import { pipeline } from 'node:stream'
